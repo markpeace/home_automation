@@ -1,0 +1,23 @@
+{
+        "name": "parseconnector",
+        "version": "0.1.87",
+        "homepage": "https://github.com/markpeace/ParseConnector",
+        "authors": [
+                "markpeace <mark@learnsomestuff.com>"
+        ],
+        "description": "parseconnector",
+        "main": "/js/services/parseconnector.js",
+        "license": "MIT",
+        "private": true,
+        "ignore": [          
+                "**/.*",
+                "js",
+                "index.html",
+                "pu.sh",
+                "pages",
+                "node_modules",
+                "bower_components",
+                "test",
+                "tests"
+        ]
+}
