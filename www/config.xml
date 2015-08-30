@@ -1,40 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        xmlns:android   = "http://schemas.android.com/apk/res/android"
-        id        = "com.markpeace.homeautomation"
-        version   = "0.0.1">
-
-        <gap:config-file platform="ios" parent="CFBundleShortVersionString"> 
-                <string>001</string> 
-        </gap:config-file>
-
-        <name>Home Automation</name>
-
-        <description>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.markpeace.homeautomation" version="0.0.1">
+  <gap:config-file platform="ios" parent="CFBundleShortVersionString">
+    <string>001</string>
+  </gap:config-file>
+  <name>Home Automation</name>
+  <description>
                 An Initial Control App
         </description>
-        <author href="http://www.google.com" email="mark@learnsomestuff.com">
+  <author href="http://www.google.com" email="mark@learnsomestuff.com">
                 Mark Peace
         </author>
-        <content src="index.html"/>
-        <access origin="*"/>
-
-        <preference name="webviewbounce" value="false"/>
-        <preference name="UIWebViewBounce" value="false"/>
-        <preference name="DisallowOverscroll" value="true"/>
-        <preference name="android-minSdkVersion" value="16"/>
-        <preference name="BackupWebStorage" value="none"/>
-        <!--<preference name="SplashScreen" value="screen"/>-->
-        <!--<preference name="SplashScreenDelay" value="3000"/>-->
-        <feature name="StatusBar">
-                <param name="ios-package" value="CDVStatusBar" onload="true"/>
-        </feature>
-
-        <gap:plugin name="org.apache.cordova.geolocation" />
-        <gap:plugin name="org.apache.cordova.device" />
-        <gap:plugin name="org.apache.cordova.network-information" />
-        <gap:plugin name="com.phonegap.plugins.pushplugin" />
+  <content src="index.html"/>
+  <access origin="*"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="android-minSdkVersion" value="16"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <preference name="SplashScreen" value="screen"/>
+  <preference name="SplashScreenDelay" value="3000"/>
+  <feature name="StatusBar">
+    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  </feature>
+  <gap:plugin name="org.apache.cordova.geolocation"/>
+  <gap:plugin name="org.apache.cordova.device"/>
+  <gap:plugin name="org.apache.cordova.network-information"/>
+  <gap:plugin name="com.phonegap.plugins.pushplugin"/>
         
         <icon src="resources/ios/icon/icon.png" gap:platform="ios" width="57" height="57"/>
         <icon src="resources/ios/icon/icon@2x.png" gap:platform="ios"  width="114" height="114"/>
@@ -83,4 +74,5 @@
         <gap:splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" gap:platform="android" density="port-xxxhdpi"/>
 
         <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
+
 </widget>
